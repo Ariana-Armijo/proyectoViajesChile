@@ -1,0 +1,130 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+
+.navbar.scrolled {
+    background-color: #00a2ab;
+    /* Color de fondo cuando se hace scroll */
+}
+
+.navbar {
+    background-color: transparent;
+    background-color: #00a2ab;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+
+}
+
+.imagenNavbar {
+    width: 100px;
+}
+
+.bg-icono {
+    background-color: #00a2ab;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    text-align: center;
+    margin: 0 -15px 10px;
+    padding: 5px 10px;
+    width: 100%;
+
+}
+
+.containericonos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    gap: 0px;
+}
+
+.iconosboostrap {
+    /*padre*/
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.iconosboostrap-iconos-contenedor {
+    /*hijo texto*/
+    align-items: center;
+    text-align: center;
+}
+
+.iconosboostrap-texto-interno {
+    /*hijo texto*/
+    text-align: justify;
+}
+
+.card {
+    background-color: #00a2ab;
+
+}
+
+.img-center {
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+.column {
+    margin: 0 15px;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 60%;
+    padding: 40px;
+
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-text {
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    background-color: #00a2ab;
+
+}
+
+.formulario {
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.pieDePagina {
+    background-color: #00a2ab;
+    box-sizing: border-box;
+    /* Incluye el padding en el ancho total */
+
+}
+
+.redesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 30px;
+}
